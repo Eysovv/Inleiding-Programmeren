@@ -1,0 +1,62 @@
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#bij{
+    max-width: 100px;
+    max-height: 100px;
+    opacity: 0;
+    position: relative;
+    left: 0;
+    transition: left 2s ease;
+}
+
+
+#plant{
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: blue;
+    border: 10px 8px solid darkblue;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+#waterknop2{
+    opacity: 0%;
+}
+
+#reset{
+    opacity: 0;
+}
+
+#bestuiven{
+    opacity: 0;
+    color: white;
+    font-size: larger;
+}
+
+p{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    border: 10px 8px solid darkblue;
+}
